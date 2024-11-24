@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1730375478 source:e:\practice\responsi\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+
