@@ -11,15 +11,16 @@ int main() {
     // Membuat array dengan ukuran n
     int arr[n];
 
-    for(int i = 0; i < n; i++){
-        cout<<"Input ke-"<< (i + 1)<< ": ";
-        cin>> arr[i];
-    }
-
-    // Menampilkan hasil array
-    cout << "Hasil Array:  ";
-    for(int i = 0; i < n; i++){
-        cout<< arr[i] << " ";
+    // Menampilkan bilangan genap
+    cout << "Hasil Array: ";
+    for (int i = 0; i < n; i++) {
+        if (i % 2 == 0) {
+            cout << "0" << " ";
+        }else{
+            cout << "1" << " ";
+        }
     }
     cout << endl;
+
+    return 0;
 }
