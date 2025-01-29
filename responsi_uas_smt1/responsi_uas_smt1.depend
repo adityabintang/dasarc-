@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1735367274 source:e:\practice\responsi_uas_smt1\main.cpp
+	<iostream>
+	<vector>
+	<string>
+	<iomanip>
+
